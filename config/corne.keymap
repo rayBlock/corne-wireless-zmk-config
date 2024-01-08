@@ -38,10 +38,10 @@
 
             label = "Layer1";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT     &kp HASH   &kp GRAVE  &kp PRCNT           &kp CARET  &kp AMPS  &kp LPAR  &kp RPAR  &kp KP_MULTIPLY  &kp SLASH
-&kp LCTRL  &trans    &kp DE_LT  &kp DE_GT  &kp DLLR   &kp EQUAL           &kp MINUS  &kp ESC   &kp LBRC  &kp RBRC  &kp BSPC         &kp GRAVE
-&kp LSHFT  &trans    &trans     &trans     &trans     &kp DE_BACKSLASH    &kp UNDER  &kp PLUS  &kp LBKT  &kp RBKT  &kp PIPE         &kp TILDE
-                                &kp LGUI   &trans     &kp SPACE           &kp RET    &trans    &kp RALT
+&kp TAB    &kp EXCL  &kp AT     &kp HASH   &kp DE_GRAVE   &kp PRCNT           &kp DE_QUESTION  &kp DE_AMPS  &kp DE_LEFT_PARENTHESIS  &kp DE_RPAR           &kp KP_MULTIPLY  &kp SLASH
+&kp LCTRL  &trans    &kp DE_LT  &kp DE_GT  &kp DE_DOLLAR  &kp DE_EQUAL        &kp MINUS        &kp ESC      &kp DE_LBRC              &kp DE_RBRC           &kp DE_GRAVE     &kp BSPC
+&kp LSHFT  &trans    &trans     &trans     &trans         &kp DE_BACKSLASH    &kp DE_UNDER     &kp PLUS     &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET  &kp PIPE         &kp DE_TILDE
+                                &kp LGUI   &trans         &kp SPACE           &kp RET          &trans       &kp RALT
             >;
         };
 
